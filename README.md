@@ -1,6 +1,6 @@
 <h1>Orkut Project</h1>
 
-<p>Esse é um projeto pessoal feito totalmente do zero em HTML5, CSS3 e JS</p>
+<p>Esse é um projeto pessoal feito totalmente do zero em <span class="yellow">HTML5, CSS3 e JS</span></p>
 <h2>O que eu utilizei para criar o layout das páginas: </h2>
 
 <ul>
