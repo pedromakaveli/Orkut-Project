@@ -1,14 +1,17 @@
 <h1>Orkut Project</h1>
 
-<p>Esse é um projeto pessoal feito totalmente do zero em <span class="yellow">HTML5, CSS3 e JS</span></p>
+<p>Esse é um projeto pessoal feito totalmente do zero em <b>HTML5, CSS3 e JS</b></p>
+
+<img height="500x" src="https://i.imgur.com/7UcPm0B.png"/>
+
 <h2>O que eu utilizei para criar o layout das páginas: </h2>
 
 <ul>
-  <li>GRID</li>
-  <li>Flexbox</li>
-  <li>Media Querie</li>
-  <li>Váriaveis em CSS</li>
-  <li>Estruturação de arquivos</li>
+  <li><b>GRID</b></li>
+  <li><b>Flexbox</b></li>
+  <li><b>Media Querie</b></li>
+  <li><b>Váriaveis em CSS</b></li>
+  <li><b>Estruturação de arquivos</b></li>
 </ul>
 
 <h2>A utilização de Grids</h2>
