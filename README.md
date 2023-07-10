@@ -7,10 +7,10 @@
 <h2>O que eu utilizei para criar o layout das páginas: </h2>
 
 <ul>
-  <li><b>GRID</b></li>
-  <li><b>Flexbox</b></li>
-  <li><b>Media Querie</b></li>
-  <li><b>Váriaveis em CSS</b></li>
+  <li><a href="https://www.origamid.com/projetos/css-grid-layout-guia-completo/" target="blank"><b>GRID</b></a></li>
+  <li><a href="https://origamid.com/projetos/flexbox-guia-completo/" target="blank"><b>Flexbox</b></a></li>
+  <li><a href="https://www.origamid.com/codex/como-utilizar-media-queries-para-sites-responsivos/" target="blank"><b>Media Querie</b></a></li>
+  <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties"><b>Váriaveis em CSS</b></a></li>
   <li><b>Estruturação de arquivos</b></li>
 </ul>
 
