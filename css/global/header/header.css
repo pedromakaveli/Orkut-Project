@@ -1,0 +1,123 @@
+.cabecalho {
+    font-size: 1.04rem;
+    background: var(--light-color);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+.logo{
+    margin-right: 20px;
+}
+
+.menu-avatar{
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+
+.menu-search {
+    background: var(--light-grey-color);
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 10px 50px;
+    border: none;
+}
+
+.search{
+    display: none;
+    margin-top: 50px;
+}
+
+.search input{
+    background: var(--light-grey-color);
+    color: #B4AEAE;
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 10px 50px;
+    border: none;
+}
+
+.pesquisa-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 25px;
+}
+
+.pesquisa-container svg{
+    content: '';
+    position: absolute;
+    display: flex;
+    top: 6.5px;
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 20px 30px;
+
+}
+
+.menu ul, .mid-btn {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.mid-btn li{
+    gap: 0px 35px;
+}
+
+.menu-principal{
+    font-weight: 400;
+    gap: 0px 15px;
+    color: var(--grey-color-2);
+}
+
+.menu-principal a {
+    transition: 0.2s;
+}
+
+.menu-principal a:hover{
+    color: var(--brand-color);
+    font-weight: 600;
+}
+
+.active{
+    color: var(--brand-color);
+    font-weight: 600;
+}
+
+.menu-perfil{
+    gap: 10px;
+}
+
+.perfil-nome {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media(max-width: 900px){
+    .pesquisa-container {
+        display: none;
+    }
+
+
+    .mid-btn li{
+        display: none;
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+    }
+}

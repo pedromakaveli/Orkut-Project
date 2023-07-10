@@ -1,0 +1,14 @@
+:root {
+    --brand-color: #ED2590;  /* BRAND */
+    --light-color: #ffffff;
+    --light-grey-color: #EFF3F8;
+    --grey-color-light: #B4AEAE;
+    --grey-color: #6c6a6a;
+    --grey-color-2: #4B4B4B;
+
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}

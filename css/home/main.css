@@ -1,0 +1,287 @@
+.perfil{
+    height: 100vh;
+    padding: 80px 30px;
+    display: grid;
+    grid-template-columns:0.85fr 2fr 0.89fr;
+    gap: 15px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+    
+}
+
+.perfil-info, .perfil-sobre {
+    background: var(--light-color);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 20px;
+    padding: 24px 48px;
+}
+
+.perfil-sobre-detalhes {
+    display: grid;
+    height: 100vh !important;
+
+}
+
+.perfil-info-nome {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--grey-color);
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.parceiro {
+    color: var(--brand-color) !important;
+    border-bottom:2px solid #ED2590;
+    cursor: pointer;
+}
+
+.edit {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-color);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 1.125rem;
+    transition: 0.6s;
+}
+
+.edit:hover {
+    background: var(--brand-color);
+    color: #EFF3F8;
+}
+
+.avatar-perfil-info img{
+    box-shadow: inset 0 0 0 3px var(--light-color), 0 0 0 4px var(--brand-color);
+    object-fit: cover;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.perfil-align{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-sobre {
+    align-items: start;
+    padding: 24px 34px;
+    
+}
+
+.perfil-sobre h1 {
+    font-weight: 500;
+    color: var(--grey-color);
+    font-size: 1.625rem;
+
+}
+
+.perfil-sobre-frase {
+    background: var(--light-grey-color);
+    border-radius: 10px;
+    padding: 9px 12px;
+    font-size: 1rem;
+    width: 100%;
+    position: relative;
+}
+
+.perfil-sobre-frase::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    width: 0; 
+    height: 0; 
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 20px solid var(--light-grey-color);
+}
+
+.perfil-sobre-dados{
+    display: grid;
+    grid-template-columns: repeat(4, 0.60fr);
+    gap: 7px 2.5px;
+    align-items: center;
+}
+
+.perfil-sobre-dados span {
+    margin-left: 12px;
+    color: var(--grey-color);
+    font-weight: 400;
+}
+
+.perfil-sobre-dados-svg{
+    display: flex;
+    align-items: center;
+}
+
+.info-pessoal {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+
+.info-pessoal-informado {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.info-pessoal-informado p, span{
+    font-size: 1rem;
+}
+
+.info-pessoal-informado p {
+    color: var(--grey-color);
+}
+.info-pessoal-informado span {
+    color: var(--grey-color-light);
+    font-weight: 200;
+}
+
+.lista-amigos-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+.lista-amigos-quantidade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.lista-amigos-quantidade li span {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.lista-amigos-quantidade li a {
+    font-size: 0.9375rem;
+    color:var(--brand-color);
+}
+
+.amigos, .comunidade {
+    background: var(--light-color);
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.lista-amigos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.lista-amigos div img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.lista-amigos div p {
+    margin-top: 10px;
+    font-size: 0.875rem;
+}
+
+.perfil-gostos {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+
+}
+
+.tags {
+    padding: 1.123px 30px;
+    border-radius: 50px;
+    font-size: 0.970rem;
+    border: 1px solid var(--brand-color);
+    color:var(--grey-color);
+    text-transform: capitalize;
+    transition: 0.5s;
+    
+}
+
+.tags:hover {
+    background: var(--brand-color);
+    color: var(--light-color);
+}
+
+@media(max-width: 840px){
+    .lista-amigos-section {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 663px) {
+    .lista-amigos-section {
+        margin-top: 70px;
+    }
+}
+
+@media(max-width: 525px){
+    .lista-amigos-section {
+        margin-top: 135px;
+    }
+}
+
+@media(max-width: 465px){
+    .lista-amigos-section{
+        margin-top: 225px;
+    }
+
+}
+
+
+@media(max-width: 401px) {
+    .lista-amigos-section{
+        margin-top: 290px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .perfil {
+        margin-top:10px;
+        grid-template-columns: 1fr;
+    }
+
+    .lista-amigos-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .amigos {
+        width: 100%;
+    }
+
+    .lista-amigos{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 30px 25px;
+    }
+
+}

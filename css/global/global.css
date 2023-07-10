@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+ul li, a{
+    all: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1,h2,h3{
+    font-family: 'SF Pro Display', sans-serif;
+    color: var(--grey-color);
+}
+
+p, a, li, span{
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+body {
+    background-color: #fadfec;
+}
